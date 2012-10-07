@@ -1,15 +1,14 @@
 package com.dushyanth.stickysectionedlistheaders;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
-public class SessionListActivity extends Activity
+public class SessionListActivity extends FragmentActivity
 {
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.session_list);
     }
 }
