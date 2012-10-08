@@ -30,16 +30,6 @@ public class SessionsTable {
     }
 
     public static void seedData(SQLiteDatabase db) {
-
-//        #99a6af
-//#6a4ca2
-//#2da9e5
-//#f39526
-//#1e62b2
-//#afd53b
-//#b3232f
-//#f2d31f
-
         ContentValues values = new ContentValues();
         values.put(COL_TITLE, "What's New in Google Maps");
         values.put(COL_TRACK_NAME, "Google Maps");
